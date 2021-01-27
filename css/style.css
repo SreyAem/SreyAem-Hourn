@@ -95,6 +95,7 @@ a{
 .social{
     display: flex;
     margin-left: 250px;
+    margin-top: 10px;
 }
 .social a{
     font-size: 30px;
@@ -111,4 +112,12 @@ a{
 }
 .fa-telegram {
     color: #00aff0;
+}
+.foot{
+    margin-bottom: 0;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(248, 170, 170);
+    padding: 3px;
+    color: rgb(49, 44, 44);
 }
