@@ -7,6 +7,23 @@ body{
 svg{
     margin-bottom: 0;
 }
+.cls-1 {
+  fill: #0af5d1;
+  fill-rule: evenodd;
+}
+
+.cls-2 {
+  font-size: 25px;
+  text-anchor: middle;
+  fill: #616363;
+  font-family: "Franklin Gothic Heavy";
+  text-transform: uppercase;
+}
+
+.cls-3 {
+  fill: #20cfcf;
+}
+
 .container{
     display: flex;
     margin-bottom: 0;
