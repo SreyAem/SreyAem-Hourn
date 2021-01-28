@@ -1,20 +1,29 @@
 body{
-    display: flex;
-    justify-content: center;
-    background: rgb(245, 236, 236);
+    background: rgb(224, 217, 217);
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+}
+.bar{
+    width: 60px;
+    background-color: rgb(197, 174, 174);
+    z-index: 10;
+    position: fixed;
+    right: 35px;
+    top: 200px;
+    height: 400px;
+    border-radius: 40px;
 }
 .container{
     display: flex;
     box-sizing: border-box;
     width: 90%;
-    margin-top: 50px;
-    justify-content: space-between;
+    margin-left: 50px;
 }
 svg{
     margin-bottom: 0;
     padding: 0;
+    position: fixed;
 }
 .cls-1 {
   fill: #0af5d1;
@@ -35,27 +44,30 @@ svg{
 .left{
     width: 28%;
     background: rgb(180, 158, 158);
+    height: 500px;
+    position: fixed;
+    margin-top: 100px;
 }
 img{
     width: 100%;
 }
 .information{
     margin-left: 40px;
+    height: auto;
+}
+.information p{
+    margin: 5px;
 }
 .right{
-    width: 68%;
+    width: 60%;
     height: auto;
-    
+    margin-left: 50px;
 }
 .info h2{
-    padding: 30px;
-    padding-bottom: 0;
-    margin: 0;
-
+    box-sizing: border-box;
 }
 nav{
-    background: rgb(180, 158, 158);
-    width: 100%;
+    height: 30px;
 }
 .menu{
     background: rgb(180, 158, 158);
@@ -64,15 +76,75 @@ nav{
     font-size: 25px;
     padding: 20px;
     box-sizing: border-box;
-    
+    margin: 100px 0 0 380px ;
+
+}
+.item a{
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(63, 51, 51);
+}
+.fa-home{
+    font-size: 30px;
+}
+.box{
+    margin: 40px;
+    padding: 20px 0;
 }
 .info{
     background: rgb(180, 158, 158);
     width: 100%;
     height: auto;
-    margin-top: 0;
+    margin: 40px 0 0 380px ;
+    box-sizing: border-box;
 }
 .info p{
-    margin: 10px 35px;
     font-size: 20px;
+    box-sizing: border-box;
 }
+h2{
+    text-transform: uppercase;
+}
+.boxskill{
+    display: flex;
+}
+.code{
+    width: 35%;
+    background: rgb(241, 220, 220);
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.language{
+    width: 35%;
+    background:  rgb(241, 220, 220);
+    margin-left: 80px;
+    border-radius: 30px;
+}
+.boxskill h3{
+    text-align: center;
+}
+.box :nth-child(3), :nth-child(10), :nth-child(14){
+    margin-top: 80px;
+}
+.box1{
+    margin: 15px;
+}
+.level {
+    width: 100%;
+    background-color: #ddd;
+    box-sizing: border-box;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;}
+  .css {width: 80%; background-color: #2196F3;}
+  .python {width: 65%; background-color: #f44336;}
