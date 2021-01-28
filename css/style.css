@@ -8,7 +8,7 @@ svg{
     margin-bottom: 0;
 }
 .cls-1 {
-  fill: #0af5d1;
+  fill:rgb(240, 153, 153);
   fill-rule: evenodd;
 }
 
@@ -21,7 +21,7 @@ svg{
 }
 
 .cls-3 {
-  fill: #20cfcf;
+  fill: rgb(240, 153, 153);
 }
 
 .container{

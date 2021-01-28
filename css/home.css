@@ -10,8 +10,18 @@ body{
     z-index: 10;
     position: fixed;
     right: 35px;
-    top: 200px;
-    height: 400px;
+    top: 180px;
+    height: 350px;
+    border-radius: 40px;
+}
+.bar1{
+    width: 60px;
+    background-color: rgb(197, 174, 174);
+    z-index: 10;
+    position: fixed;
+    right: 35px;
+    top: 540px;
+    height: 60px;
     border-radius: 40px;
 }
 .container{
@@ -26,7 +36,7 @@ svg{
     position: fixed;
 }
 .cls-1 {
-  fill: #0af5d1;
+  fill:rgb(240, 153, 153);
   fill-rule: evenodd;
 }
 
@@ -39,14 +49,15 @@ svg{
 }
 
 .cls-3 {
-  fill: #20cfcf;
+  fill: rgb(240, 153, 153);
 }
 .left{
     width: 28%;
     background: rgb(180, 158, 158);
-    height: 500px;
+    height: 480px;
     position: fixed;
     margin-top: 100px;
+    border-radius: 30px;
 }
 img{
     width: 100%;
@@ -56,7 +67,7 @@ img{
     height: auto;
 }
 .information p{
-    margin: 5px;
+    margin: 10px;
 }
 .right{
     width: 60%;
@@ -77,6 +88,7 @@ nav{
     padding: 20px;
     box-sizing: border-box;
     margin: 100px 0 0 380px ;
+    border-radius: 30px;
 
 }
 .item a{
@@ -100,6 +112,7 @@ nav{
     height: auto;
     margin: 40px 0 0 380px ;
     box-sizing: border-box;
+    border-radius: 30px;
 }
 .info p{
     font-size: 20px;
@@ -130,21 +143,69 @@ h2{
     margin-top: 80px;
 }
 .box1{
-    margin: 15px;
+    margin: 20px;
 }
-.level {
-    width: 100%;
-    background-color: #ddd;
+.level{
     box-sizing: border-box;
-  }
-  
-  .skills {
+    width: 100%;
+    background: rgb(206, 198, 198);
+}
+.skills{
     text-align: right;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    color: white;
-  }
-  
-  .html {width: 90%; background-color: #4CAF50;}
-  .css {width: 80%; background-color: #2196F3;}
-  .python {width: 65%; background-color: #f44336;}
+    padding: 3px 3px 0 0;
+    color: rgb(253, 252, 252);
+}
+.python{
+    width: 90%; background-color: rgb(77, 69, 69);
+}
+.html{
+    width: 70%; background-color: rgb(77, 69, 69);
+}
+.css{
+    width: 70%; background-color: rgb(77, 69, 69);
+}
+.english{
+    width: 70%; background-color: rgb(77, 69, 69);
+}
+.khmer{
+    width: 80%; background-color: rgb(77, 69, 69);
+}
+.thai{
+    width: 95%; background-color: rgb(77, 69, 69);
+}
+.social{
+    text-align: center;
+    margin-top: 10px;
+}
+.social a{
+    font-size: 30px;
+    padding: 10px 10px 30px 10px;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook-official {
+    color: #3B5998;
+}
+.fa-skype {
+    color:#00aff0;
+}
+.fa-telegram {
+    color: #00aff0;
+}
+.fa-github {
+    color: black;
+}
+.fa-file-pdf-o {
+    color: black;
+}
+.ex1, .ex2, .ex3{
+    display: flex;
+}
+.ex1 h4, .ex2 h4, .ex3 h4{
+    width: 30%;
+}
+.ex1 p, .ex2 p, .ex3 p{
+    font-size: 18px;
+}
