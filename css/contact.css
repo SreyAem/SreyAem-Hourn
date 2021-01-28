@@ -1,0 +1,52 @@
+body{
+    background: rgb(224, 217, 217);
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+svg{
+    margin-bottom: 0;
+    padding: 0;
+    position: fixed;
+}
+.cls-1 {
+  fill:rgb(240, 153, 153);
+  fill-rule: evenodd;
+}
+
+.cls-2 {
+  font-size: 25px;
+  text-anchor: middle;
+  fill: #616363;
+  font-family: "Franklin Gothic Heavy";
+  text-transform: uppercase;
+}
+
+.cls-3 {
+  fill: rgb(240, 153, 153);
+}
+.menu{
+    background: rgb(180, 158, 158);
+    width: 900px;
+    font-size: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px 0 0 380px ;
+    border-radius: 30px;
+    position: fixed;
+}
+.item a{
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(63, 51, 51);
+}
+.fa-home{
+    font-size: 30px;
+}
