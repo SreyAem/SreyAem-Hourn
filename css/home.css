@@ -1,5 +1,5 @@
 body{
-    background: rgb(224, 217, 217);
+    background: rgb(236, 233, 233);
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -23,6 +23,14 @@ body{
     top: 540px;
     height: 60px;
     border-radius: 40px;
+}
+.bar2{
+    width: 60px;
+    z-index: 10;
+    position: fixed;
+    right: 35px;
+    top: 15px;
+    height: 60px;
 }
 .container{
     display: flex;
@@ -53,22 +61,27 @@ svg{
 }
 .left{
     width: 28%;
-    background: rgb(180, 158, 158);
-    height: 480px;
+    background: rgb(197, 174, 174);
+    height: 460px;
     position: fixed;
     margin-top: 100px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 img{
     width: 100%;
+    margin-top: 20px;
 }
 .information{
     margin-left: 40px;
     height: auto;
 }
+.information h3{
+    margin: 6px;
+}
 .information p{
     margin: 10px;
 }
+
 .right{
     width: 60%;
     height: auto;
@@ -77,18 +90,15 @@ img{
 .info h2{
     box-sizing: border-box;
 }
-nav{
-    height: 30px;
-}
 .menu{
-    background: rgb(180, 158, 158);
+    background: rgb(197, 174, 174);
     width: 100%;
     margin-bottom: 35px;
     font-size: 25px;
     padding: 20px;
     box-sizing: border-box;
-    margin: 100px 0 0 380px ;
-    border-radius: 30px;
+    margin: 10px 0 0 380px ;
+    border-radius: 20px;
 
 }
 .item a{
@@ -100,7 +110,7 @@ nav{
     color: rgb(63, 51, 51);
     padding: 12px;
 }
-a:hover{
+.item a:hover{
     background: rgb(151, 132, 132);
     border-radius: 10px;
   }
@@ -108,16 +118,16 @@ a:hover{
     font-size: 30px;
 }
 .box{
-    margin: 40px;
-    padding: 20px 0;
+    margin: 20px;
+    padding: 30px;
 }
 .info{
-    background: rgb(180, 158, 158);
+    background: rgb(197, 174, 174);
     width: 100%;
     height: auto;
-    margin: 40px 0 0 380px ;
+    margin-left: 380px;
     box-sizing: border-box;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .info p{
     font-size: 20px;
@@ -184,26 +194,29 @@ h2{
 }
 .social a{
     font-size: 30px;
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 30px 13px;
     text-decoration: none;
 }
 .fa:hover {
     opacity: 0.7;
 }
 .fa-facebook-official {
-    color: #3B5998;
+    color: #224796;
 }
 .fa-skype {
-    color:#00aff0;
+    color:#0297ce;
 }
 .fa-telegram {
-    color: #00aff0;
+    color: #05a0d8;
 }
 .fa-github {
     color: black;
 }
 .fa-file-pdf-o {
     color: black;
+}
+.fa-globe {
+    color: rgb(63, 51, 51);
 }
 .ex1, .ex2, .ex3{
     display: flex;
@@ -214,3 +227,11 @@ h2{
 .ex1 p, .ex2 p, .ex3 p{
     font-size: 18px;
 }
+footer{
+    width: 100%;
+    background-color:  rgb(180, 158, 158);
+    font-weight: bold;
+    color:  #616363;
+    text-align: center;
+    padding: 0.2px;
+  }

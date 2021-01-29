@@ -125,7 +125,7 @@ a{
     padding-top: 10px;
     padding-bottom: 45px;
     font-size: 25px;
-
+    outline: none;
   }
   
   .button span {
