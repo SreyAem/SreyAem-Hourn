@@ -235,3 +235,8 @@ footer{
     text-align: center;
     padding: 0.2px;
   }
+@media(max-width:450px){
+    .container {
+        display: inline;
+    }
+}
