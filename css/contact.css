@@ -4,9 +4,11 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
-header{
+.header{
     margin: 0;
     padding: 0;
+    display: flex;
+    top: 0;
 }
 svg{
     margin-bottom: 0;
@@ -31,13 +33,12 @@ svg{
 }
 .menu{
     background: rgb(180, 158, 158);
-    width: 900px;
+    width: 55%;
     font-size: 25px;
     padding: 20px;
     box-sizing: border-box;
-    margin: 20px 0 0 380px ;
+    margin: 20px 0 0 500px ;
     border-radius: 30px;
-    position: fixed;
 }
 .item a{
     margin-right: 20px;
@@ -46,7 +47,122 @@ svg{
     font-size: 20px;
     font-weight: bold;
     color: rgb(63, 51, 51);
+    padding: 12px;
+}
+.item a:hover{
+  background: rgb(151, 132, 132);
+  border-radius: 10px;
 }
 .fa-home{
     font-size: 30px;
+}
+.container{
+  margin-top: 5vh;
+}
+.container h1{
+  text-align: center;
+}
+.contact{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 90px;
+}
+.form{
+  width: 60%;
+  background: rgb(253, 246, 246);
+  height: auto;
+  color:  #616363;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+form{
+  margin: 50px;
+}
+.name {
+  font-size: 15px;
+  margin-top: 20px;
+}
+input, textarea{
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  
+}
+
+input[type=text]{
+  background-color:rgb(253, 246, 246);
+  border: none;
+  border-bottom: 2px solid  rgb(224, 217, 217);
+  width: 45%;
+  
+}
+::placeholder {
+  font-size: 15px;
+}
+textarea{
+  resize: vertical;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 200px;
+}
+input[type=submit]{
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+input[type=submit]:hover {
+  background-color: rgb(180, 158, 158);
+}
+.map{
+  background: rgb(253, 246, 246);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  width: 450px;
+  position: fixed;
+  left: 25px;
+  height: 70vh;
+  color:  #616363;
+  top: 20vh;
+}
+iframe{
+  width: 400px;
+  margin-left: 25px;
+  height: 50vh;
+  border-radius: 5px;
+}
+footer{
+  width: 100%;
+  background-color:  rgb(180, 158, 158);
+  font-weight: bold;
+  color:  #616363;
+  text-align: center;
+  padding: 0.2px;
+}
+.social{
+  margin-left: 160px;
+}
+.social a{
+  font-size: 30px;
+  padding: 25px;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook-official {
+  color: #3B5998;
+}
+.fa-skype {
+  color:#00aff0;
+}
+.fa-telegram {
+  color: #00aff0;
+}
+.fa-github {
+  color: black;
 }
